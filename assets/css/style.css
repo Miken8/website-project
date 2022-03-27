@@ -1,0 +1,5 @@
+.banner__section {
+  height: 330px;
+  background-image: url(/assets/img/banner.jpg);
+  background-position: center;
+}
