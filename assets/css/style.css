@@ -2,4 +2,7 @@
   height: 330px;
   background-image: url(/assets/img/banner.jpg);
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
