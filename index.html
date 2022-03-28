@@ -8,12 +8,25 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- NavBar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #032541; color: white"
+    >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Movies</a>
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.svg" alt="Logo" width="154" height="20" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -28,33 +41,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Movies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+              <a class="nav-link active" aria-current="page" href="#"
+                >TV Shows</a
               >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link active" aria-current="page" href="#">People</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -71,15 +66,31 @@
         </div>
       </div>
     </nav>
-    <div class="container-md">
-      <!-- Content here -->
-      <div class="banner__section">
-        <div class="content_wrapper wrap">
-          <div class="title">
-            <h2>Welcome.</h2>
-            <h3>Millions of movies, TV shows and people to discover. Explore now.</h3>
-          </div>
-      </div>
+    <div class="banner__section"></div>
+    <div class="tabs_section">
+      <h2>What's Popular</h2>
+      <ul class="selector">
+        <li class="anchor">
+          <h3>
+            <a href="#">Streaming</a>
+          </h3>
+        </li>
+        <li class="anchor">
+          <h3>
+            <a href="#">Streaming</a>
+          </h3>
+        </li>
+        <li class="anchor">
+          <h3>
+            <a href="#">Streaming</a>
+          </h3>
+        </li>
+        <li class="anchor">
+          <h3>
+            <a href="#">Streaming</a>
+          </h3>
+        </li>
+      </ul>
     </div>
   </body>
   <script src="assets/js/main.js"></script>
